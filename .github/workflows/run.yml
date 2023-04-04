@@ -24,10 +24,10 @@ jobs:
       - name: 开始
         run: |
           pip install requests
-          pmode='${{ secrets.wx }}'
-          pkey='${{ secrets.SCT204185Ty0KyUUyBDfhKwZOpXoDJMd0l }}'
-          user='${{ secrets.wenjing_he }}'
-          pwd='${{ secrets.hewenjing221 }}'
-          step='${{ secrets.23069 }}'
+          pmode='${{ secrets.PMODE }}'
+          pkey='${{ secrets.PKEY }}'
+          user='${{ secrets.USER }}'
+          pwd='${{ secrets.PWD }}'
+          step='${{ secrets.STEP }}'
 
           python3 main.py ${pmode} ${pkey} ${user} ${pwd} ${step}
