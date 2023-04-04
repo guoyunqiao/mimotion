@@ -26,7 +26,7 @@ jobs:
           pip install requests
           pmode='${{ secrets.wx }}'
           pkey='${{ secrets.SCT204185Ty0KyUUyBDfhKwZOpXoDJMd0l }}'
-          user='${{ secrets.wenjing_he@ctgu.edu.cn }}'
+          user='${{ secrets.wenjing_he }}'
           pwd='${{ secrets.hewenjing221 }}'
           step='${{ secrets.23069 }}'
 
